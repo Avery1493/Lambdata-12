@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="avery1493-Lambdata-12",
-    version="1.0",
+    version="2.0",
     author="Avery Quinn",
     author_email="avery.quinn1493@gmail.com",
     description="Example Module",

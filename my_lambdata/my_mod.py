@@ -5,9 +5,9 @@ from pandas import to_datetime
 
 def splitdate(df, column):
     """
-    Pram df is a dataframe
+    Pram df is a dataframe  
     Pram column is a column header surrounded in quotes
-    the columns should contain date values
+    the columns should contain date values  
     Function will split the date into multiple columns
     """
     df= df.copy()
@@ -24,9 +24,9 @@ if __name__ == "__main__":
 
 def temp_conv(degrees,metric=True):
     """
-    Parm degrees is the temperature as integer or float
-    Parm metric is the unit degrees is measured in
-    Default metric is True, meaning Celcius 
+    Parm degrees is the temperature as integer or float  
+    Parm metric is the unit degrees is measured in  
+    Default metric is True, meaning Celcius  
     Metric = False, mean Fahrenheit 
     """
     d = degrees
@@ -40,35 +40,4 @@ def temp_conv(degrees,metric=True):
 if __name__ == "__main__":
     print("output", temp_conv(32,False))
 
-
-
-
-
-
-
-
-
-
-
-#TEST
-# def enlarge(n):
-#     """
-#     Parm n is a number
-#     Function will enlarge the number
-#     """
-#     return n * 100
-
-
-# # this code breaks our ability to import enlarge from other files
-# # print("HELLO")
-# # y = int(input("Please choose a number"))
-# # print(y, enlarge(y))
-
-
-# if __name__ == "__main__":
-#     # only run this code IF this script is invoked from the command line
-#     # not if it is imported from another
-#     print("HELLO")
-#     y = int(input("Please choose a number"))
-#     print(y, enlarge(y))
 
