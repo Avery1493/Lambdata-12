@@ -5,8 +5,8 @@ from pandas import to_datetime
 
 def splitdate(df, column):
     """
-    Pram df is a dataframe  
-    Pram column is a column header surrounded in quotes
+    Parm df is a dataframe  
+    Parm column is a column header surrounded in quotes
     the columns should contain date values  
     Function will split the date into multiple columns
     """
@@ -24,8 +24,8 @@ if __name__ == "__main__":
 
 def temp_conv(degrees,metric=True):
     """
-    Parm degrees is the temperature as integer or float  
-    Parm metric is the unit degrees is measured in  
+    Parm "degrees" is the temperature as integer or float  
+    Parm "metric" is the unit degrees is measured in  
     Default metric is True, meaning Celcius  
     Metric = False, mean Fahrenheit 
     """

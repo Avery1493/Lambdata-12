@@ -21,7 +21,7 @@ class Drinks(Snack):
 
 if __name__ == "__main__":
     snack_1 = Snack('chips', 'Lays', 9.5, 4.25)
-    snack_2 = Snack('soda','Pepsi', 12, 1.25)
+    snack_2 = Snack('soda', 'Pepsi', 12, 1.25)
    
     print("Snack_1 size:", snack_1.size)
     print("Snack_2 brand:", snack_2.brand)
